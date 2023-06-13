@@ -1,0 +1,75 @@
+*{
+    width: 1080px;
+    height: 1920px;
+}
+body{
+    margin: auto;
+    overflow: hidden;
+
+}
+
+#btn1{
+    z-index: 1;
+    visibility:visible;
+    position: absolute;
+    left: 22%;
+    top: 47%;
+    width: 56%;
+    height: auto    ;
+}
+
+
+#content{
+    width: 1080px;
+    visibility: hidden;
+    z-index: 2;
+    position: relative;
+
+}
+#nested{
+    position: absolute;
+    display: block;
+    align-content: center;
+    top: 619px;
+}
+.content_btn{
+    width: 773px;
+    height: auto;
+    display: block;
+    padding-bottom: 27px;
+    margin: auto;
+}
+
+#home_btn{
+    visibility: hidden;
+    width: 6%;
+    height: auto;
+    position: absolute;
+    z-index: 2;
+    bottom: 6%;
+    right: 6%;
+
+}
+
+#next_btn{
+    visibility: hidden;
+    z-index: 2;
+    position: absolute;
+    width: 29.5%;
+    height: auto;
+    right: 15%;
+    bottom: 5.7%;
+}
+#minimize_btn{
+    visibility: hidden;
+    z-index: 2;
+    position: absolute;
+    width: 4.5%;
+    height: auto;
+    right: 18%;
+    top: 24.7%;
+}
+
+#bg_img{
+    position: absolute;
+}
