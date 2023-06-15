@@ -1,0 +1,178 @@
+*{
+    width: 1080px;
+    height: 1920px;
+}
+body{
+    background-color: black;
+    
+    margin: auto;
+    overflow: hidden;
+
+}
+
+#btn1{
+    z-index: 1;
+    visibility:visible;
+    position: absolute;
+    left: 22%;
+    top: 47%;
+    width: 56%;
+    height: auto    ;
+}
+
+
+#content{
+    width: 1080px;
+    visibility: hidden;
+    z-index: 2;
+    position: relative;
+
+}
+
+
+
+#nested{
+    position: absolute;
+    display: block;
+    align-content: center;
+    top: 619px;
+}
+.content_btn{
+    width: 773px;
+    height: auto;
+    display: block;
+    padding-bottom: 27px;
+    margin: auto;
+
+}
+
+
+
+#btn_content1 {
+    opacity: 0 ;
+    transition: opacity 1s;
+
+
+}
+
+#btn_content1.fade{
+    opacity: 1;
+
+
+  }
+
+
+#btn_content2{
+    opacity: 0 ;
+    transition: opacity 1.5s;
+}
+
+#btn_content2.fade{
+    opacity: 1;
+  }
+
+#btn_content3{
+    opacity: 0 ;
+    transition: opacity 2s;
+}
+
+#btn_content3.fade{
+    opacity: 1;
+  }
+
+
+
+
+#home_btn{
+    visibility: hidden;
+    width: 6%;
+    height: auto;
+    position: absolute;
+    z-index: 2;
+    bottom: 6%;
+    right: 6%;
+
+}
+
+#next_btn{
+    visibility: hidden;
+    z-index: 2;
+    position: absolute;
+    width: 29.5%;
+    height: auto;
+    right: 15%;
+    bottom: 5.7%;
+}
+#minimize_btn{
+    visibility: hidden;
+    z-index: 10;
+    position: absolute;
+    width: 4.5%;
+    height: auto;
+    right: 18%;
+    top: 24.7%;
+}
+
+#bg_img{
+    position: absolute;
+}
+
+#main_content{
+ 
+    width: 1080px;
+    visibility: visible;
+    position: relative;
+
+}
+
+
+
+#main_img1,#main_img2,#main_img3{
+
+    width: 78%;
+    height: auto;
+    z-index: 3;
+    position: absolute; 
+    opacity: 0 ;
+    transition: opacity 1s;
+    visibility: hidden;
+
+    right: 11%;
+
+
+
+
+}
+
+#main_img1{
+    top: 447px;
+}
+
+#main_img1.fade{
+    opacity: 1 ;
+}
+#main_img2{
+    top: 400px;
+
+}
+#main_img2.fade{
+    opacity: 1 ;
+}
+#main_img3{
+    top: 450px;
+
+}
+#main_img3.fade{
+    opacity: 1 ;
+}
+
+
+#bg_img1{
+
+    transition  : ease-in-out 1s;
+}
+
+#bg_img1.fade{
+
+  opacity: 1;
+}
