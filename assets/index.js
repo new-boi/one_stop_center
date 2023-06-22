@@ -76,7 +76,7 @@ var inactivityTime = function () {
 
     function resetTimer() {
         clearTimeout(time);
-        time = setTimeout(logout, 100000)
+        time = setTimeout(logout, 1200000)
         // 1000 milliseconds = 1 second
     }
 };
