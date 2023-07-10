@@ -165,6 +165,10 @@ body{
 
 
 }
+#main_img3{
+    transition: opacity 1s;  
+
+}
 
 #main_img1{
     top: 447px;
